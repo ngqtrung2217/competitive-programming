@@ -27,7 +27,7 @@ int main()
     sort(a + 1, a + n + 1);
 
     for (int i = 1; i <= n; ++i)
-    {
+    {asdasdasdasdads
         p1[i] = (p1[i - 1] + a[i]) % mod;
         p2[i] = (p2[i - 1] + mul(a[i], a[i])) % mod;
         p3[i] = (p3[i - 1] + mul(mul(a[i], a[i]), a[i])) % mod;
